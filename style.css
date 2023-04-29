@@ -1,0 +1,119 @@
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1bbffa;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eaf6ff;
+    border-radius: 10px;
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #008CBA;
+    text-shadow: 1px 1px #fff;
+    letter-spacing: 2px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #008CBA;
+    text-shadow: 1px 1px #fff;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #008CBA;
+  }
+  
+  h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Lists */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .skills li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    color: #333;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  .education h3, .experience h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #008CBA;
+  }
+  
+  .date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .contact li {
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Buttons */
+  .blue-bg {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .blue-bg:hover {
+    background-color: #0077a3;
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
